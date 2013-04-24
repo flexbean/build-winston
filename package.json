@@ -1,6 +1,6 @@
 {
   "name": "build-winston",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Build a winston logger via JSON configuration",
   "main": "./build-weston.js",
   "repository": {
