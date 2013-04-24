@@ -1,6 +1,6 @@
 {
   "name": "build-winston",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Build a winston logger via JSON configuration",
   "main": "./lib",
   "repository": {
@@ -8,6 +8,7 @@
     "url": "https://github.com/flexbean/build-winston.git"
   },
   "dependencies": {
+    "lodash": "1.2.0",
     "pkginfo": "0.3.0",
     "winston": "0.7.1"
   },
