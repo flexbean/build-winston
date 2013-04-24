@@ -54,6 +54,10 @@ Build a [winston][0] logger via JSON configuration.
 });;
 ```
 
+## Contributions Welcome
+
+Let's make node great! Idea, suggestions and assistance is welcome :-)
+
 ## License
 
 # MIT
