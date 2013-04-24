@@ -1,6 +1,6 @@
 {
   "name": "build-winston",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Build a winston logger via JSON configuration",
   "main": "./lib",
   "repository": {
@@ -10,6 +10,8 @@
   "dependencies": {
     "pkginfo": "0.3.0",
     "winston": "0.7.1"
+  },
+  "devDependencies": {
   },
   "keywords": [
     "winston",
