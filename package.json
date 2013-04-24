@@ -1,8 +1,8 @@
 {
   "name": "build-winston",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Build a winston logger via JSON configuration",
-  "main": "build-weston.js",
+  "main": "./build-weston.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/flexbean/build-winston.git"
