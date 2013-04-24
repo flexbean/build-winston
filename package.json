@@ -1,0 +1,19 @@
+{
+  "name": "build-winston",
+  "version": "0.1.0",
+  "description": "Build a winston logger via JSON configuration",
+  "main": "build-weston.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flexbean/build-winston.git"
+  },
+  "keywords": [
+    "winston",
+    "nconf",
+    "config",
+    "logging",
+    "loggly"
+  ],
+  "author": "Jim Kalac",
+  "license": "MIT"
+}
