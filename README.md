@@ -25,7 +25,7 @@ Remember to install desired transports like winston-loggly above. To see a list 
 ## Usage
 ``` js
   var winston = require('winston')
-     , config = { "console": { "level": "info", "colorize": true };
+     , config = { "console": { "level": "info", "colorize": true } };
   logger = require('build-winston').get(config, function(err, winston){
   if (err) {
     logger.error(err);
