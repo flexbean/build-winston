@@ -26,13 +26,14 @@ Remember to install desired transports like winston-loggly above. To see a list 
 ``` js
   var winston = require('winston')
      , config = { "console": { "level": "info", "colorize": true } };
-  logger = require('build-winston').get(config, function(err, winston){
-  if (err) {
-    logger.error(err);
-  } else {
-    logger = winston;
-  }
-});;
+     
+  var logger = require('build-winston').get(config, function(err, winston) {
+    if (err) {
+        logger.error(err);
+    } else {
+        logger = winston;
+    }
+  });
 ```
 
 ## Usage with [nconf][1]
@@ -43,20 +44,16 @@ Remember to install desired transports like winston-loggly above. To see a list 
   nconf.env('__');
   nconf.file({ file: __dirname + '/package.json' });
   nconf.defaults({
-      "cookie_key" : "replace this",
-      "host" : "localhost",
-      "port" : 3000,
-      "development": true,
       "winston" : { "console": { "level": "info", "colorize": true } }
   });
 
-  logger = require('build-winston').get(nconf.get('winston'), function(err, winston){
-  if (err) {
-    logger.error(err);
-  } else {
-    logger = winston;
-  }
-});;
+  var logger = require('build-winston').get(nconf.get('winston'), function(err, winston) {
+    if (err) {
+      logger.error(err);
+    } else {
+      logger = winston;
+    }
+  });;
 ```
 
 ## Contributions Welcome
