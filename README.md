@@ -12,9 +12,7 @@ Build a [winston][0] logger via JSON configuration.
 ### Installing build-winston and desired winston transports
 
 ``` sh
-  $ npm install winston
-  $ npm install build-winston
-  $ npm install winston-loggly
+  $ npm install build-winston winston-loggly
 ```
 
 Remember to install desired transports like winston-loggly above. To see a list of potential transports:
