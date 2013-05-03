@@ -56,7 +56,7 @@ Remember to install desired transports like winston-loggly above. To see a list 
 
 ## Contributions Welcome
 
-Let's make node great! Idea, suggestions and assistance is welcome :-)
+Let's make node great! Ideas, suggestions and assistance is welcome :-)
 
 ## Outstanding Testing
 - unit testing
