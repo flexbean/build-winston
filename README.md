@@ -1,6 +1,10 @@
 # build-winston
 Build a [winston][0] logger via JSON configuration.
 
+## Depreciated
+
+This project has been merged to [winston-config][2] and will no longer be developed.
+
 ## Installation
 
 ### Installing npm (node package manager)
@@ -134,3 +138,4 @@ THE SOFTWARE.
 
 [0]: https://github.com/flatiron/winston
 [1]: https://github.com/flatiron/nconf
+[2]: https://github.com/triplem/winston-config
